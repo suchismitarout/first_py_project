@@ -1,6 +1,6 @@
 import json
 def read_file():
-    with open("/home/ninky/details.txt", "r") as fr:
+    with open("details.txt", "r") as fr:
         file_contents = fr.read()
         return file_contents
 
